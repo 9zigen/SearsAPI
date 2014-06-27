@@ -1,6 +1,4 @@
-
-== SearsAPI PHP Class Library verson 0.1 ===
-
+=== SearsAPI PHP Class Library verson 0.1 ===
 
 This Sears API was written for supporting Sears API version 2.1.
 We start with 7 main methods and 1 sub method, in total this
@@ -17,24 +15,25 @@ for developers to use and save their time in development process.
 Below is the list of our method
 functions under each API groups.
 
-= Product Search API =
+[ Product Search API ]
 Function querySearsAPI ( Custom Data , Keyword )
 
 
-= Top Sellers API =
+[ Top Sellers API ]
 Function topSellAPI ( Category )
 
 
-= Store Information API =
+[ Store Information API ]
 Function storeInfoAPI ( Zip Code )
 - function storeCountAPI ( Zip Code )
 
 
-= Deals APIs =
+[ Deals APIs ]
 Function dailySpecialAPI ( )
 Function dailyAllAPI ( )
 Function weeklyDealsCategoriesAPI ( )
 Function weeklyDealsAPI ( Category )
+
 
 This project SearsAPI Class has 3 files
 - SearsAPI.Class.php
